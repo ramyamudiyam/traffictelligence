@@ -37,5 +37,10 @@ Box plots are useful as they show the average score of a data set. The median is
 ![image](https://github.com/user-attachments/assets/f6277bf3-812f-4bc7-9146-59fb702a182a)
 
 # After entering Values
+![u7id9vb8](https://github.com/user-attachments/assets/2ec47f59-742b-4dd0-9ef7-281785ab614a)
+
+
 
 # Output
+![output](https://github.com/user-attachments/assets/9b0c64e3-75ee-4b15-a3cf-9325be470aeb)
+
