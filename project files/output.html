@@ -5,34 +5,31 @@
     <style>
         body {
             background-image: url("https://stat.overdrive.in/wp-content/uploads/2021/10/2021-jaguar-xf-facelift-india-01.jpg");
-           
-	    background-size: cover;        }
-        .pd {
-            padding-bottom: 100;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', sans-serif;
+            color: black;
+        }
+        .header {
+            padding-bottom: 100px;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .content {
+            text-align: center;
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
-    <br>
-    <center>
-        <b class="pd">
-            <font color="black" size="15" font-family="Comic Sans MS">
-                Traffic volume estimation
-            </font>
-        </b>
-    </center>
-    <div>
-        <br>
-        <center>
-            <p>
-                <font color="black">{{ result }}</font>
-            </p>
-        </center>
-        <center>
-            <p>
-                <font color="black">{{ prediction_text }}</font>
-            </p>
-        </center>
+    <div class="header">
+        Traffic volume estimation
+    </div>
+    <div class="content">
+        <p>{{ result }}</p>
+        <p>{{ prediction_text }}</p>
     </div>
 </body>
 </html>
